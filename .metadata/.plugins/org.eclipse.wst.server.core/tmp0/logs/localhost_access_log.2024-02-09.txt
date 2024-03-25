@@ -1,0 +1,5 @@
+127.0.0.1 - - [09/Feb/2024:12:55:57 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:12:55:58 +0530] "GET /Calculatorapplication/ HTTP/1.1" 404 777
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:12:55:58 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:12:56:09 +0530] "GET /Calculatorapplication/Calculator.html HTTP/1.1" 200 716
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:12:56:15 +0530] "GET /Calculatorapplication/CalculatorServlet?firstnumber=1&secondnumber=1&operation=%2B HTTP/1.1" 200 45

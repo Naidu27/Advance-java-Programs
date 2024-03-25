@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register form</title>
+</head>
+<body bgcolor="sky blue" style="text-align:center">
+<h1>Registration Form</h1>
+<form method="get" action="./RegisterServlet">
+    <label>User Name:</label>
+    <input type="text" name="User Name" required/>
+    <br><br>
+    
+    <label>User password:</label>
+    <input type="password" name="User Password" required/>
+    <br><br>
+    
+    <label>User mobile:</label>
+    <input type="number" name="User Number" required/>
+    <br><br>
+    
+    <label>User Email:</label>
+    <input type="email" name="Email" required/>
+    <br><br>
+    
+    <label>Gender:</label>
+    <input type="radio" name="Gender"  value="Male" />MALE
+    <input type="radio" name="Gender"   value="Female" />FEMALE
+     <br><br>
+     
+     <label>Qualification:</label>
+     <input type="checkbox" name="Qualification" value="BCA"/>BCA
+     <input type="checkbox" name="Qualification" value="MCA"/>MCA
+     <input type="checkbox" name="Qualification" value="BTECH"/>BTECH
+     <input type="checkbox" name="Qualification" value="MTECH"/>MTECH
+     <br><br>
+     
+     
+     <label>DOB:</label>
+     <input type="date" name="DOB" required/>
+     <br><br>
+     
+     <label>Select Languages:</label>
+     <select  name="Languages" size="3" multiple>
+         <option>TELUGU</option>
+         <option>HINDI</option>
+         <option>ENGLISH</option>
+         <option>TAMIL</option>
+         <option>KANADA</option>
+     </select>
+     <br><br>
+     
+     <label>Select Country:</label>
+     <select name="Country" >
+          <option>INDIA</option>
+          <option>Australia</option>
+          <option>AFRICA</option>
+          <option>DENMARK</option>
+     </select>
+        <br><br>
+        
+      <label>Comments</label>
+      <textarea name="comments" rows='5' cols='25'>
+       </textarea>
+       <br><br>
+       
+       
+       <input type="submit" value="register"/>
+</form>
+
+</body>
+</html>

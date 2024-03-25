@@ -1,0 +1,12 @@
+127.0.0.1 - - [24/Feb/2024:23:17:26 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:23:17:28 +0530] "GET /cookies/ HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:23:17:29 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:23:17:39 +0530] "GET /cookies/form1.html HTTP/1.1" 200 484
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:23:17:46 +0530] "GET /cookies/Firstservlet?userName=uyfer&Age=23 HTTP/1.1" 405 751
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:23:18:30 +0530] "GET /cookies/Firstservlet?userName=uyfer&Age=23 HTTP/1.1" 405 751
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:23:18:33 +0530] "GET /cookies/form1.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:23:18:41 +0530] "GET /cookies/Firstservlet?userName=wweq&Age=12 HTTP/1.1" 405 751
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:23:19:39 +0530] "GET /cookies/ HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:23:19:57 +0530] "GET /cookies/Firstservlet?userName=dafs&Age=23 HTTP/1.1" 405 751
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:23:22:21 +0530] "GET /cookies/form1.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:23:22:29 +0530] "GET /cookies/Firstservlet?userName=man&Age=23 HTTP/1.1" 405 751

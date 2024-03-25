@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ADD PRODUCT</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<script  type="text/javascript" src="formvalidation.js"></script>
+</head>
+<body>
+    <div class="container mt-5 text-center">
+    
+      <h2 class="text-center font-italic mb-1">SAVE PRODUCT DATA</h2>
+      
+      <form method="post" action="./Addproductservlet" enctype="multipart/form-data" onsubmit="return validateForm()">
+      
+          	<div class="form-group">
+            <label class="font-italic font-weigth-bold" for="proId">PRODUCT ID:</label>
+            <input type="text" class="form-control-sm" id="proId"  name="proId" required>
+            </div>
+            
+            <div class="form-group">
+               <label class="font-italic font-weigth-bold" for="proName">PRODUCT NAME:</label>
+                <input type="text" class="form-control-sm" id="proName"  name="proName" required>
+            </div>
+            
+             <div class="form-group">
+                <label class="font-italic font-weigth-bold" for="proPrice">PRODUCT PRICE:</label>
+                <input type="number" class="form-control-sm" id="proPrice"  name="proPrice" required>
+            </div>
+            
+             <div class="form-group">
+                <label class="font-italic font-weigth-bold" for="proBrand">PRODUCT BRAND:</label>
+                <input type="text" class="form-control-sm" id="proBrand"  name="proBrand" required>
+            </div>
+            
+             <div class="form-group">
+                 <label class="font-italic font-weigth-bold" for="proMade In">PRODUCT MADE-IN:</label>
+                  <input type="text" class="form-control-sm" id="proMadeIn"  name="proMadeIn" required>
+            </div>
+            
+             <div class="form-group">
+                  <label class="font-italic font-weigth-bold" for="proMfg Date">PRODUCT MFG-DATE:</label>
+                   <input type="date" class="form-control-sm" id="proMfgdate"  name="proMfgdate" required>
+            </div>
+ 
+            
+             <div class="form-group">
+                <label class="font-italic font-weigth-bold" for="proExp Date">PRODUCT EXP-DATE:</label>
+                <input type="date" class="form-control-sm" id="proExpdate"  name="proExpdate" required>
+            </div>
+            
+             <div class="form-group">
+                 <label class="font-italic font-weigth-bold" for="proImage">PRODUCT IMAGE:</label>
+                  <input type="file" class="form-control-sm" id="proImage"  name="proImage" accept="image/*" required>
+            </div>
+            
+             <div class="form-group">
+                 <label class="font-italic font-weigth-bold" for="proAudio">PRODUCT AUDIO:</label>
+                  <input type="file" class="form-control-sm" id="proAudio"  name="proAudio" accept="audio/*" required>
+            </div>
+            
+             <div class="form-group">
+                 <label class="font-italic font-weigth-bold" for="proVideo">PRODUCT VIDEO:</label>
+                  <input type="file" class="form-control-sm" id="proVideo"  name="proVideo" accept="video/*" required>
+            </div>
+            
+             <div class="form-group">
+                <input type="submit" class="btn btn-success"  value="save product" />
+                <a href="productlist.jsp"  class="btn btn-primary">LIST OF PRODUCTS</a>
+            </div>
+      </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+127.0.0.1 - - [12/Feb/2024:17:50:43 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:17:50:44 +0530] "GET /RegestrationApp/ HTTP/1.1" 404 771
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:17:50:44 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:17:50:57 +0530] "GET /RegestrationApp/regestration.html HTTP/1.1" 200 2006
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:17:51:41 +0530] "GET /RegestrationApp/RegisterServlet?User+Name=naidu&User+Password=1235&User+Number=74879075087763&Email=itssaikn2000%40gmail.com&Gender=Male&Qualification=BTECH&DOB=2024-02-15&Languages=HINDI&Country=INDIA&comments=+++++++ HTTP/1.1" 500 1427
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:17:54:32 +0530] "GET /RegestrationApp/ HTTP/1.1" 404 771
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:17:54:34 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:17:54:38 +0530] "GET /RegestrationApp/regestration.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:17:55:14 +0530] "GET /RegestrationApp/RegisterServlet?User+Name=naidu&User+Password=fjfbvxh&User+Number=76346576&Email=itssaikn2000%40gmail.com&Gender=Male&Qualification=BTECH&DOB=2024-02-29&Languages=TAMIL&Country=INDIA&comments=+++++++nsrjh+uiwreu HTTP/1.1" 200 249
+127.0.0.1 - - [12/Feb/2024:17:59:00 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:17:59:02 +0530] "GET /RegestrationApp/ HTTP/1.1" 404 771
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:17:59:04 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:17:59:18 +0530] "GET /RegestrationApp/regestration.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:18:00:27 +0530] "GET /RegestrationApp/RegisterServlet?User+Name=akids&User+Password=213653890&User+Number=23456789&Email=itssaikn2000%40gmail.com&Gender=Male&Qualification=BTECH&DOB=2024-02-16&Languages=ENGLISH&Languages=TAMIL&Languages=KANADA&Country=INDIA&comments=+++++++jifjitrhjijtu8df7%0D%0Arajudrh77idg+u8fg+%0D%0Asuhukdsbuh HTTP/1.1" 200 336
